@@ -1,0 +1,131 @@
+//Map logic
+$breakpoints: (
+    //name mq colour
+    mobile 320px $red,
+    tablet 740px $yellow,
+    desktop 980px $green,
+    wide 1300px $blue
+);
+
+@each $name, $mq, $color in $breakpoints {
+    .list-example {
+      @media (min-width: $mq){
+          &:before {
+            @include font-header;
+          content:'#{$name}.';
+        }
+        background-color: $color;
+        width: 100%;
+        height: calc(100vh - #{$body__padding});
+        position: absolute;
+      }
+    }
+}
+
+//@for $i from 1 through length($breakpoints) {
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+///// Test code I was playing around with
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+$colorList: (
+  $red,
+  $yellow,
+  $blue,
+  $green
+);
+
+@for $i from 1 through 20 {
+  .list-#{$i} {
+    &:before {
+      @include font-header;
+    content:'#{$i}.';
+    }
+    width: 25vw;
+    flex-grow: 1;
+    height: calc(25vh - #{$body__padding});
+    background-color: $green;
+    margin: 10px;
+  }
+}
+
+// .grid {}
+//
+// .grid::before,
+// .grid::after {
+//     clear: both;
+//     content: '';
+//     display: block;
+// }
+//
+// .grid__item {
+//     box-sizing: border-box;
+//     float: left;
+//     height: 50vw;
+//     padding: 2em;
+//     width: 50vw;
+// }
+//
+// @for $i from 1 through 8 {
+//   .grid__item:nth-child(#{$i}) {
+//     background-color: hsl(360 / 72 * $i, 100%, 60%);
+//   }
+// }
+
+$o-grid-default-config: (
+    columns: 12,
+    gutter: 10px,
+    min-width: 240px,
+    max-width: 1330px,
+    layouts: (
+        S:  370px,  // ≥20px columns
+        M:  610px,  // ≥40px columns
+        L:  850px,  // ≥60px columns
+        XL: 1090px  // ≥80px columns
+    ),
+    fluid: true,
+    debug: false,
+    fixed-layout: M,
+    enhanced-experience: true
+);
+
+/// Map deep get
+/// @author Hugo Giraudel
+/// @access public
+/// @param {Map} $map - Map
+/// @param {Arglist} $keys - Key chain
+/// @return {*} - Desired value
+@function map-deep-get($map, $keys...) {
+    @each $key in $keys {
+        $map: map-get($map, $key);
+    }
+    @return $map;
+}
+
+$m-breakpoint: map-deep-get($o-grid-default-config, "layouts", "M");
+
+// $breakpoints-list: (
+// //$ratio, $size, $mq, $width, $height, $colour
+//   4by3 md $bp-mobile-width 312px 234px $red,
+//   4by3 md $bp-tablet-landscape-width 396px 298px lighten($red, 10%),
+//   4by3 md $bp-desktop-width 480px 360px $green,
+//   4by3 sm $bp-mobile-width 312px 234px $red,
+//   4by3 sm $bp-tablet-landscape-width 291px 218px lighten($red, 10%),
+//   4by3 sm $bp-desktop-width 354px 266px $green
+// );
+
+// @each $ratio, $size, $mq, $width, $height, $colour in $breakpoints-list {
+//   // $i: index($breakpoints-list, $mq);
+//   // $j: index($breakpoints-list, $colour);
+//   .list-example {
+//       @media (min-width: $mq){
+//         width: $width - 2; //for border
+//         height: $height;
+//         background-color: $colour;
+//         position: absolute;
+//       }
+//   }
+// }
+
+.example {
+  width: $m-breakpoint;
+}

@@ -1,0 +1,48 @@
+$body__padding: 15px;
+
+//Colours
+$Tblue: #00539f;
+$Tred: #ee1c2e;
+$red: #e74c3c;
+$blue: #3498db;
+$green: #2ecc71;
+$yellow: #E2C11F;
+$white: #fafafa;
+
+//Breakpoints
+$bp-small-mobile-width: 320px;
+$bp-mobile-width: 504px;
+$bp-tablet-width: 756px;
+$bp-tablet-landscape-width: 1008px;
+$bp-desktop-width: 1260px;
+
+//Mixins
+@mixin font-header {
+  font: 40px $base-font-family;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 10px;
+  // align-items: center;
+  height: 100%;
+  color: $white;
+}
+
+@mixin font-dot {
+   &:before {
+     content: '.';
+   }
+}
+
+//Base style
+.demo-container {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  width: calc(100vw - #{$body__padding});
+  height: calc(100vh - #{$body__padding});
+  background-color: $white;
+  border: 1px solid darken($white, 10);
+  margin: 0;
+  padding: 0;
+}
