@@ -2,10 +2,25 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
-const element = <h1>Hello, world</h1>;
-ReactDOM.render(
-  element,
-  document.getElementById('root')
-);
+class App extends Component {
 
-export default ReactDOM;
+  render() {
+    // const blocks = ['', '', '', '', '','', '', '', '', ''];
+    // const listItems = blocks.map((blocks) => <div className='list-'>{blocks}</div>);
+    var data = ['Michael Jackson', 'Bob Dylan', 'Kendrick Lama'];
+    var listItems = data.map((value, index) => (
+      <li
+        key={value}
+        className={this.props.active === index ? 'active' : ''}>
+        {value}
+      </li>
+    ));
+    return (
+      <div className='demo-container'>
+        <div>{listItems}</div>
+      </div>
+    );
+  }
+}
+
+export default App;
