@@ -10,388 +10,348 @@
   padding: 0; }
 
 @media (min-width: 320px) {
-  .list-example {
+  .list-test {
     background-color: #e74c3c;
     width: 100%;
     height: calc(100vh - 15px);
     position: absolute; }
-    .list-example:before {
+    .list-test:before {
       font: 40px TESCO Modern, Arial, sans-serif;
       font-weight: bold;
       display: flex;
       justify-content: flex-start;
-      margin: 0 10px;
+      padding: 0 10px;
       height: 100%;
       color: #fafafa;
       content: "mobile."; } }
 
 @media (min-width: 740px) {
-  .list-example {
+  .list-test {
     background-color: #E2C11F;
     width: 100%;
     height: calc(100vh - 15px);
     position: absolute; }
-    .list-example:before {
+    .list-test:before {
       font: 40px TESCO Modern, Arial, sans-serif;
       font-weight: bold;
       display: flex;
       justify-content: flex-start;
-      margin: 0 10px;
+      padding: 0 10px;
       height: 100%;
       color: #fafafa;
       content: "tablet."; } }
 
 @media (min-width: 980px) {
-  .list-example {
+  .list-test {
     background-color: #2ecc71;
     width: 100%;
     height: calc(100vh - 15px);
     position: absolute; }
-    .list-example:before {
+    .list-test:before {
       font: 40px TESCO Modern, Arial, sans-serif;
       font-weight: bold;
       display: flex;
       justify-content: flex-start;
-      margin: 0 10px;
+      padding: 0 10px;
       height: 100%;
       color: #fafafa;
       content: "desktop."; } }
 
 @media (min-width: 1300px) {
-  .list-example {
+  .list-test {
     background-color: #3498db;
     width: 100%;
     height: calc(100vh - 15px);
     position: absolute; }
-    .list-example:before {
+    .list-test:before {
       font: 40px TESCO Modern, Arial, sans-serif;
       font-weight: bold;
       display: flex;
       justify-content: flex-start;
-      margin: 0 10px;
+      padding: 0 10px;
       height: 100%;
       color: #fafafa;
       content: "wide."; } }
 
-.list-1 {
+.list1 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-1:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "1."; }
 
-.list-2 {
+.list2 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-2:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "2."; }
 
-.list-3 {
+.list3 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-3:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "3."; }
 
-.list-4 {
+.list4 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-4:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "4."; }
 
-.list-5 {
+.list5 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-5:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "5."; }
 
-.list-6 {
+.list6 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-6:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "6."; }
 
-.list-7 {
+.list7 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-7:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "7."; }
 
-.list-8 {
+.list8 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-8:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "8."; }
 
-.list-9 {
+.list9 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-9:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "9."; }
 
-.list-10 {
+.list10 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-10:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "10."; }
 
-.list-11 {
+.list11 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-11:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "11."; }
 
-.list-12 {
+.list12 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-12:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "12."; }
 
-.list-13 {
+.list13 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-13:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "13."; }
 
-.list-14 {
+.list14 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-14:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "14."; }
 
-.list-15 {
+.list15 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-15:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "15."; }
 
-.list-16 {
+.list16 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-16:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "16."; }
 
-.list-17 {
+.list17 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-17:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "17."; }
 
-.list-18 {
+.list18 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-18:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "18."; }
 
-.list-19 {
+.list19 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-19:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "19."; }
 
-.list-20 {
+.list20 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
   width: 25vw;
   flex-grow: 1;
   height: calc(25vh - 15px);
   background-color: #2ecc71;
   margin: 10px; }
-  .list-20:before {
-    font: 40px TESCO Modern, Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 100%;
-    color: #fafafa;
-    content: "20."; }
 
 .example {
   width: 610px; }
