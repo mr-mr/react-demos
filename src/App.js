@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import {list} from'./App.css';
 import _ from 'lodash';
 
 class App extends Component {
-
   render() {
     // const blocks = ['', '', '', '', '','', '', '', '', ''];
     // const listItems = blocks.map((blocks) => <div className='list-'>{blocks}</div>);
@@ -23,8 +21,8 @@ class App extends Component {
     // ));
     return (
       <div className='demo-container'>
-          {_.times(21, i =>
-              <div key={i} className={'list1'}>{i}.</div>
+          {_.times(22, i =>
+              <div key={i} className={`list${i}`}>{i}.</div>
           )}
       </div>
     );

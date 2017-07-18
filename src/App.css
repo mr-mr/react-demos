@@ -73,6 +73,20 @@
       color: #fafafa;
       content: "wide."; } }
 
+.list0 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
+  width: 25vw;
+  flex-grow: 1;
+  height: calc(25vh - 15px);
+  background-color: #2ecc71;
+  margin: 10px; }
+
 .list1 {
   font: 40px TESCO Modern, Arial, sans-serif;
   font-weight: bold;
@@ -340,6 +354,20 @@
   margin: 10px; }
 
 .list20 {
+  font: 40px TESCO Modern, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10px;
+  height: 100%;
+  color: #fafafa;
+  width: 25vw;
+  flex-grow: 1;
+  height: calc(25vh - 15px);
+  background-color: #2ecc71;
+  margin: 10px; }
+
+.list21 {
   font: 40px TESCO Modern, Arial, sans-serif;
   font-weight: bold;
   display: flex;

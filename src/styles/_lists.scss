@@ -34,7 +34,7 @@ $colorList: (
   $green
 );
 
-@for $i from 1 through 20 {
+@for $i from 0 through 21 {
   .list#{$i} {
     @include font-header;
     width: 25vw;
